@@ -29,7 +29,7 @@ from skimage.morphology import disk
 from scipy import ndimage
 from skimage.morphology import remove_small_objects, convex_hull_object
 
-leaf = io.imread("Leaf_pictures/16_day0_leaf_2.JPG")
+leaf = io.imread("16_day0_leaf_2.JPG")
 
 # as our background is white Kappel suggested we use the stategy to calculate
 # the standard deviation between the different color channels, because this
